@@ -2,7 +2,8 @@ git status
 git add "filename"
 git commit -m "Desc"
 git add . # agrega todo el directorio al stage antes del commmit.
-git clone https://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@github.com/RodriCano/Curso.Prep.Henry
-git push https://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@github.com/RodriCano/Curso.Prep.Henry
+git clone https://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@github.com/RodriCano/Curso.Prep.Henry.git
+git push https://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@github.com/RodriCano/Curso.Prep.Henry.git
+
 
 
