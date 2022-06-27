@@ -1,3 +1,6 @@
+### 
+En windows ejecutar gitbash como admin
+
 ### Gestion
 
 git status: devuelve el lista de modificaciones sobre el repositorio
@@ -27,6 +30,17 @@ git branch -d: borra una rama
 
 ### Merge
 git merge "cualquier otra rama" : combina dos ramas, la rama sobre la cual estamos trabajando y la rama de argumento del comando
+
+### GITHUB
+Hasta el momento instale git de manera local. Luego hay que llevarlo a la nube
+Crear cuenta github
+Crear repositorio 
+agregar repositorio local a github: git remote add origin https://github.com/RodriCano/testGit.git
+git pull origin master --allow-unrelated-histories: sincroniza el repo local con el de la nube
+git fetch
+git merge
+git remote rm "origen": remueve el origen en git
+
 
 
 git clone https://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@github.com/RodriCano/Curso.Prep.Henry.git
