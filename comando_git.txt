@@ -1,12 +1,12 @@
 ### Gestion
 
-git status
-git add "filename"
-git commit -m "Desc"
-git add . # agrega todo el directorio al stage antes del commmit.
-git reset HEAD #remueve los archivos de stage y los deja en su estado anterior (unstages o untracked x ejemplo)
-git rm --cached # mueve archivos indicados a untracked
-git rm --force # Elimina archivos del repo git y ficacamente.Deja registro de los mismos para poder recuperarlos
+git status: devuelve el lista de modificaciones sobre el repositorio
+git add "filename" : agrege el archivos seleccionado y lo deja en stage
+git commit -m "Desc": graba los cambios
+git add . : agrega todo el directorio al stage antes del commmit.
+git reset HEAD: remueve los archivos de stage y los deja en su estado anterior (unstages o untracked x ejemplo)
+git rm --cached: mueve archivos indicados a untracked
+git rm --force: Elimina archivos del repo git y ficacamente.Deja registro de los mismos para poder recuperarlos
 
 ### Analisis de Cambios
 git log: muestra historial de commits y sus comentarios 
