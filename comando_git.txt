@@ -1,7 +1,34 @@
+### Gestion
+
 git status
 git add "filename"
 git commit -m "Desc"
 git add . # agrega todo el directorio al stage antes del commmit.
+git reset HEAD #remueve los archivos de stage y los deja en su estado anterior (unstages o untracked x ejemplo)
+git rm --cached # mueve archivos indicados a untracked
+git rm --force # Elimina archivos del repo git y ficacamente.Deja registro de los mismos para poder recuperarlos
+
+### Analisis de Cambios
+git log: muestra historial de commits y sus comentarios 
+git show: muestra los cambios sobre los archivos util para entender cuando deja de funcionar el programa.
+git diff: muestra la diferencia entre versiones entre los diferentes coomits (git diff commitA commitB)
+
+### Resete y checkout
+git checkout + id del commit: podesmo volver a cuelquier version anterior de un archivo o incluso de nuestro proyecto entero (tambien sirve para moverse entre ramas)
+git log --stat: es una descripcion con la cantiada de lineas agregadas y removidas por archivos.
+git reset --soft: mantiene los archivos en el area de staging para que podamos aplicar nuestros uyltimos cambios desde un commit anterior.
+git reset --hard 'commit': borra toda la informacion que tengamos en el area de staging (no se puede recuperar nada)
+git checkout master 'file': vuelve a la version de origen del file.
+
+### Ramas o branches
+git branch "nombre de la rama": crea un rama
+git chekout "nombre de la rama": cambiarse de rama
+git branch -d: borra una rama
+
+### Merge
+git merge "cualquier otra rama" : combina dos ramas, la rama sobre la cual estamos trabajando y la rama de argumento del comando
+
+
 git clone https://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@github.com/RodriCano/Curso.Prep.Henry.git
 git push https://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@github.com/RodriCano/Curso.Prep.Henry.git
 
